@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+.terminal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    white-space: pre-wrap;
+    overflow: hidden;
+}
